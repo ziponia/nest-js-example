@@ -8,6 +8,17 @@
   }
 }
 
+main {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #f1f1f1;
+  font-size: 0.8rem;
+  font-weight: 300;
+  padding: 20px;
+}
+
 .main__header {
   width: 960px;
   margin: auto;
@@ -19,5 +30,15 @@
     display: flex;
     flex: 1;
     justify-content: space-between;
+  }
+}
+
+.map-wrapper {
+  h4 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  #map {
+    flex: 1;
   }
 }

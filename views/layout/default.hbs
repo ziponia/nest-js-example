@@ -7,8 +7,12 @@
 
 <body>
     {{> header }}
-    {{{ body }}}
+    <main>
+        {{{ body }}}
+    </main>
+    {{> footer }}
     {{> _script }}
+    {{#> script}}{{/script}}
 </body>
 
 </html>
