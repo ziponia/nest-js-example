@@ -1,0 +1,23 @@
+@import url('./preset.css');
+
+.swiper-container {
+  .swiper-slide {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.main__header {
+  width: 960px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+
+  .navigation {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'NanumSquare', sans-serif;
+  font-weight: 700;
+  font-size: 21px;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+
+.space {
+  flex: 1;
+}
+
+.text-default {
+  font-weight: 400;
+}
+.text-bold {
+  font-weight: 700;
+}
+.text-bolder {
+  font-weight: 800;
+}
+.text-light {
+  font-weight: 300;
+}
